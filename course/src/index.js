@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './chptr2/app/components/application';
+import App from './chptr1/app/components/application';
 
 require('./index.scss');
 

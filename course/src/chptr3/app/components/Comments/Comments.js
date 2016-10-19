@@ -21,7 +21,7 @@ class Comments extends React.Component {
         const POPULAR_COUNT = 10;
         if (commentCount > POPULAR_COUNT) {
             return (
-                <div>This post is getting really popular, don't miss out!</div>
+                <div>This post is getting really popular, do not miss out!</div>
             );
         }
     }

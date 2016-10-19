@@ -3,16 +3,6 @@ import Comment from './Comment/Comment';
 
 class Comments extends React.Component {
 
-    _getComments() {
-        const commentList = [
-            { id: 1, author: 'Member 1', body: 'First!', avatarUrl: 'images/default-avatar.png' },
-            { id: 2, author: 'Jan', body: 'cool....', avatarUrl: 'images/default-avatar.png' }
-        ];
-        return commentList.map( (comment) => <Comment author={comment.author}
-                                                      body={comment.body}
-                                                      avatarUrl={comment.avatarUrl}
-                                                      key={comment.id} />);
-    }
 
     _getPopularMessage(commentCount) {
         const POPULAR_COUNT = 10;
@@ -27,7 +17,7 @@ class Comments extends React.Component {
 
         const commentList = [
             { id: 1, author: 'Member 1', body: 'First!' },
-            { id: 2, author: 'Member 2', body: 'Second...damned!' }
+            { id: 2, author: 'Member 2', body: 'Second...damned!!' }
         ];
 
         return commentList.map((comment) => {
