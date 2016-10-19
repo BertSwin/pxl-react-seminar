@@ -1,0 +1,57 @@
+/**
+ * Blood theme for reveal.js
+ * Author: Walther http://github.com/Walther
+ *
+ * Designed to be used with highlight.js theme
+ * "monokai_sublime.css" available from
+ * https://github.com/isagalaev/highlight.js/
+ *
+ * For other themes, change $codeBackground accordingly.
+ *
+ */
+
+
+
+ // Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+
+@import "../template/blood-variables";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// some overrides after theme template import
+
+.reveal p {
+    font-weight: 300;
+    text-shadow: 1px 1px $coal;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-weight: 700;
+}
+
+.reveal p code {
+    background-color: $codeBackground;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.reveal small code {
+    vertical-align: baseline;
+}

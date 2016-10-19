@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Angular You better React fast</title>
+    <meta name="description" content="">
+    <meta name="author" content="Bert Swinnen<li>Mario Van den Eynde">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+
+
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/theme/custom-css.css" id="custom-css">
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+        <section>
+            <h1>Angular <br/> You better React fast</h1>
+
+            <h3>Presentatie @ PXL</h3>
+
+            <img src="assets/images/iDA_Logo_Color2_V_Medium.png" width="200" />
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section>
+            <h2>Introductie</h2>
+
+            <section>
+                <h4>We are...</h4>
+
+
+                <p class="fragment fade-in" style="float:left">
+                    Bert Swinnen<br/>
+                    <img src="assets/images/bert.png" />
+                    <br/>
+                    @BertSwin
+                </p>
+
+                <p class="fragment fade-in" style="float:right">
+                    Mario Van den Eynde<br/>
+                    <img src="assets/images/mario.png" />
+                    <br/>
+                    @mariovde
+                </p>
+
+            </section>
+
+            <section>
+                <h4>We work for...</h4>
+                <img width="440" src="assets/images/iDA_Logo_Color2_V_Medium.png" /></br>
+                <img width="124" height="60" src="assets/images/xploregroup.png" />
+                <img width="130" height="60" src="assets/images/cronos.png" />
+            </section>
+
+            <section>
+              <blockquote style="font-size: 20pt;">
+                &ldquo;iDA Mediafoundry delivers<br/>well-integrated and highly scalable,<br/> personalized digital web experiences.&rdquo;
+              </blockquote>
+            </section>
+
+            <section>
+                <h4>We work(ed) on...</h4>
+                <img src="assets/images/logos.png" />
+
+
+
+
+            </section>
+
+            <section>
+                <h4>Why we're here...</h4>
+                <ul>
+                    <li>Theorie vs. praktijk</li>
+                    <li>In web, we trust</li>
+                    <li>Spreading the love</li>
+                    <li>We love to share</li>
+                    <li>You do make a difference</li>
+                </ul>
+            </section>
+
+
+        </section>
+
+        <section>
+            <h2>A bit of history</h2>
+            <section>
+                <img height="400" src="assets/images/berners-lee.jpg" />
+            </section>
+
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            <b>1991:</b> HTML: text<br/>
+                            <b>1994:</b> HTML 2: lists, forms<br/>
+                            <b>1996:</b> CSS 1 & JavaScript<br/>
+                            <b>1997:</b> HTML 4<br/>
+                            <b>1998:</b> CSS 2<br/>
+                            <b>2000:</b> XHTML 1<br/>
+                            <b>2002:</b> Tableless Web Design<br/>
+                            <b>2005:</b> AJAX<br/>
+                            <b>2006:</b> Jquery<br/>
+                            <b>2006:</b> Sass</br>
+                          </td>
+                        <td>
+                          <b>2009:</b> HTML 5<br/>
+                          <b>2009:</b> CSS 3<br/>
+                          <b>2009:</b> Node.js<br/>
+                          <b>2010:</b> BackboneJs<br/>
+                          <b>2010:</b> AngularJS<br/>
+                          <b>2011:</b> WebGL<br/>
+                          <b>2012:</b> Grunt<br/>
+                          <b>2012:</b> Bower<br/>
+                          <b>2013:</b> ReactJs<br/>
+                          <b>2013:</b> Gulp<br/>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+            <table>
+                <tr>
+                  <td>
+                        <b>2004: </b>Gmail<br/>
+                        <b>2004: </b>Facebook<br/>
+                        <b>2005: </b>YouTube<br/>
+                        <b>2006: </b>Twitter<br/>
+                        <b>...<br/>
+                      </td>
+
+                </tr>
+            </table>
+
+            </section>
+
+            <section>
+                <p><a href="http://info.cern.ch/">The First Webpage</a></p>
+              </section>
+
+
+            <section>
+                <h4>1991</h4>
+                <ul>
+                   <li>Tim Berners-Lee introduceerd het World Wide Web</li>
+                   <li>Geen binaire files en data verzenden</li>
+                   <li>Een eigen web van informatie om op te halen en te verzenden</li>
+                   <li>Basis van het huidige internet</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>1992</h4>
+                <ul>
+                   <li>Mosaic was de eerste browser</li>
+                   <li>Mosaic wordt Netscape</li>
+                   <li>Afbeeldingen, tekst, links en scrollbars</li>
+                   <li>Amerikaans Congres keurt wet goed om internet publiek toegangkelijk te maken</li>
+                   <li>Bedrijven kopen en verkopen zichzelf en goederen via het internet</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>JS</h3>
+            </section>
+
+            <section>
+                <h4>1995</h4>
+                <ul>
+                    <li>Ontwikkeld gedurende 10 dagen in Mei' 95, als Mocha</li>
+                    <li class="fragment fade-in"><i><b>Question:</b></i> Wie ontwikkelde JavaScript?</li>
+                    <li class="fragment fade-in">Door Brendan Eich</li>
+                    <li class="fragment fade-in"><i><b>Question:</b></i> Hoe heette JS in het begin?</li>
+                    <li class="fragment fade-in">September '95: LiveScript</li>
+                    <li>December' 95: JavaScript</li>
+
+                </ul>
+            </section>
+
+            <section>
+                <h4>1996-1997</h4>
+                <ul>
+                    <li>ECMA defineert standards: ECMAScript 1</li>
+                    <li>Verder: niets speciaals</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h4>2000</h4>
+                <ul>
+                    <li>Microsoft doet eerste stappen om enkele JS API's deftig te implementeren</li>
+                    <li>Maar beslist later om z'n eigen JS implementatie te voorzien</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h4>2005</h4>
+                <ul>
+                    <li>E4X wordt ontwikkeld: ECMAScript for XML. </li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h4>2007 - 2008</h4>
+                <ul>
+                    <li>Adobe vs. Microsoft vs. Mozilla Corp</li>
+                    <li>Community to the rescue: Ajax sinds 2005</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>...ever since</h4>
+                <ul>
+                    <li>Nu Ajax geintroduceerd werd:</li>
+                    <ul>
+                            <li>JQuery</li>
+                        <li>Prototype</li>
+                        <li>MooTools</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section>
+                <h4>2008</h4>
+                <ul>
+                    <li>Alle grote spelers: unhappy</li>
+                    <li>Samenkomst in Oslo</li>
+                    <li>ECMAScript 5</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Nu</h4>
+                <ul>
+                    <li>NodeJs: Javascript serverside</li>
+                    <li>HTML5 API's</li>
+                    <ul>
+                        <li>Video controls</li>
+                        <li>Geolocation</li>
+                        <li>Device api's</li>
+                        <li>Websockets</li>
+                        <li>Browser storage</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section>
+                <h4>We'll use Javascript!</h4>
+                <img src="http://www.reactiongifs.com/wp-content/uploads/2013/07/happy-dance-.gif" align="left" />
+                <blockquote style="float:right">JavaScript is succeeding very well in
+                    an environment where Java, Flex,
+                    Silverlight and many others were a
+                    total failure</blockquote>
+            </section>
+
+            <section>
+                <h3>Why Javascript?</h3>
+                <ul>
+                    <li class="fragment fade-in" >Prettify je website en snelle servers/backends</li>
+                    <li class="fragment fade-in" >Immense vraag naar developers (chi-ching!)</li>
+                        <ul class="fragment fade-in">
+                            <li>Angular(2)JS</li>
+                            <li>Node.js</li>
+                            <li>ReactJs</li>
+                        </ul>
+                    <li class="fragment fade-in">Eenvoudig en onmiddelijk resultaat</li>
+                    <li class="fragment fade-in">Verschillende toepassingen</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>HTML5</h3>
+                <ul>
+                    <li>Geolocatie</li>
+                    <li>Video/Media controls</li>
+                    <li>Mobile/Responsive development</li>
+                    <li>Browser storage</li>
+                </ul>
+            </section>
+            <section>
+                <h3>CSS3</h3>
+                <ul>
+                    <li>Compilers</li>
+                    <li>Sass</li>
+                    <li>Compass</li>
+                    <li>Mediaquery detection</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Libraries</h3>
+
+
+                <p class="fragment fade-in">
+                    Templating
+                    <br/>
+                <p class="fragment fade-in" style="float:left">
+                    Mustache.JS<br/>
+                    <img src="assets/images/mustache-js.png"/>
+                </p>
+                <img src="assets/images/handlebars-logo.png" class="fragment fade-in" style="float:right"/>
+                </p>
+
+
+            </section>
+            <section>
+                <h3>Libraries</h3>
+
+                <p class="fragment fade-in">
+                    MVC
+                    <br/>
+
+                    <img src="assets/images/angular-logo.png" class="fragment fade-in" style="float:left"/>
+                    <img src="assets/images/react-logo.png" class="fragment fade-in" style="float:right"/>
+                </p>
+
+            </section>
+
+        </section>
+
+        <section>
+            <h2>Web experiences</h2>
+            <section style="font-size: 19pt;">
+                <p class="fragment fade-in">Scalability (Caching)</p>
+                <p class="fragment fade-in">Responsive design (mobile)</p>
+                <p class="fragment fade-in">Native feel</p>
+                <p class="fragment fade-in">Time to market</p>
+                <p class="fragment fade-in">SEO</p>
+                <p class="fragment fade-in">Analytics</p>
+                <p class="fragment fade-in">Digital marketing</p>
+                <p class="fragment fade-in">Personalization!</p>
+                <p class="fragment fade-in">Semantic web (web3.0)</p>
+            </section>
+            <section style="font-size: 19pt;">
+                <p class="fragment fade-in">Restful</p>
+                <p class="fragment fade-in">Microservices</p>
+                <p class="fragment fade-in">Rich client experiences</p>
+                <p class="fragment fade-in">Experience driven (targeting)</p>
+                <p class="fragment fade-in">Isomorphic javascript</p>
+                <p class="fragment fade-in">Search (searchandizing)</p>
+                <p class="fragment fade-in">RDF, Google rich snippets ..</p>
+            </section>
+            <section style="font-size: 19pt;">
+                <h3>RESTful</h3>
+                <p class="fragment fade-in">Stateless!</p>
+                <p class="fragment fade-in">Are you really well RESTed?</p>
+            </section>
+            <section style="font-size: 19pt;">
+                <img height="300px" src="assets/images/maturity-model.png" />
+                <p>Richardson maturity model</p>
+            </section>
+            <section style="font-size: 19pt;">
+              <h3>Microservices</h3>
+              <p class="fragment fade-in">Focused</p>
+              <p class="fragment fade-in">Lightweight</p>
+              <p class="fragment fade-in">Service oriented</p>
+              <p class="fragment fade-in">Independently deployable</p>
+              <p class="fragment fade-in">Automatically deployed</p>
+              <p class="fragment fade-in">Loose coupling/high cohesion</p>
+            </section>
+            <section style="font-size: 19pt;">
+              <h3>Microservices</h3>
+              <img src="assets/images/microservices.png" />
+            </section>
+            <section style="font-size: 19pt;">
+              <h3>Rich client experiences</h3>
+              <p class="fragment fade-in">HTML5</p>
+              <p class="fragment fade-in">CSS3 </p>
+              <p class="fragment fade-in">Nieuwe technieken</p>
+              <p class="fragment fade-in">In Javascript we trust</p>
+              <p class="fragment fade-in">=> toenemende verantwoordelijkheid voor front-end</p>
+            </section>
+            <section style="font-size: 19pt;">
+              <h3>Impact</h3>
+              <p class="fragment fade-in">Testing!</p>
+              <p class="fragment fade-in">Quality assurance</p>
+              <p class="fragment fade-in">Nood aan structuur</p>
+              <p class="fragment fade-in">Web abstraheren boilerplate code</p>
+              <p class="fragment fade-in">Efficientie</p>
+              <p class="fragment fade-in">Compleet (nieuw) ecosysteem</p>
+            </section>
+            <section style="font-size: 19pt;">
+              <h3>Front-end ecosysteem</h3>
+              <p class="fragment fade-in">Linting (JSLint, CSSLint)</p>
+              <p class="fragment fade-in">Testing frameworks (jasmine.js, karma, protractor)</p>
+              <p class="fragment fade-in">Pre- en postprocessors (Sass, Less, auto-prefixer)</p>
+              <p class="fragment fade-in">Frontend frameworks (Bootstrap, Foundation, grid systems)</p>
+              <p class="fragment fade-in">Task runners (Grunt, Gulp, Npm?)</p>
+              <p class="fragment fade-in">Package managers (Bower, Npm)</p>
+              <p class="fragment fade-in">Plugins galore (via Npm)</p>
+              <p class="fragment fade-in">Packagers (Browserify, Webpack)</p>
+            </section>
+            <section style="font-size: 19pt;">
+                <h3>MVC frameworks</h3>
+                <p class="fragment fade-in">Backbone.js</p>
+                <p class="fragment fade-in">Ember.js</p>
+                <p class="fragment fade-in">AngularJs</p>
+            </section>
+            <section style="font-size: 19pt;">
+                <h3>Web components</h3>
+                <p class="fragment fade-in">Shadow DOM</p>
+                <p class="fragment fade-in">Encapsulation</p>
+                <p class="fragment fade-in">Google Polymer</p>
+                <p class="fragment fade-in">Angular2</p>
+                <p class="fragment fade-in"><b>ReactJS</b></p>
+            </section>
+        </section>
+        <section>
+            <h2>React</h2>
+            <section>
+                <h3>Wat?</h3>
+                <ul>
+                    <li class="fragment fade-in" >Open-source JS library</li>
+                    <li class="fragment fade-in"><i><b>Question:</b></i> Welk bedrijf ontwikkelde React?</li>
+                    <li class="fragment fade-in" >Facebook & Instagram</li>
+                    <li class="fragment fade-in" >React Native (iOS & Android)</li>
+                    <li class="fragment fade-in" >Gemaakt voor grote datasets te updaten</li>
+                    <li class="fragment fade-in" >Alleen de "View" laag van M<b>V</b>C</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Features</h3>
+                <ul>
+                    <li class="fragment fade-in" >"Properties flow down"</li>
+                    <li class="fragment fade-in" >"Actions flow up"</li>
+                    <li class="fragment fade-in" >Virtual DOM</li>
+                    <ul>
+                        <li class="fragment fade-in">DOM in het geheugen</li>
+                        <li class="fragment fade-in" >Verschil wordt daar berekend</li>
+                        <li class="fragment fade-in" >Alleen aangepaste node wordt aangepast.</li>
+                    </ul>
+
+                </ul>
+            </section>
+
+            <section>
+                <h3>Features</h3>
+                <ul>
+                    <li class="fragment fade-in" >Isomorphic</li>
+                    <ul>
+                        <li class="fragment fade-in">"werkt in twee richtingen"</li>
+                        <li class="fragment fade-in">1 code: zowel op server als op client</li>
+                        <li class="fragment fade-in">SEO-hassle: fixed!</li>
+                    </ul>
+
+                </ul>
+            </section>
+
+            <section>
+                <h3>Web Components</h3>
+                <ul>
+                <li class="fragment fade-in" >Functionaliteit en markup samen</li>
+                <li class="fragment fade-in" >Alleen datgene wat het moet doen</li>
+                <li class="fragment fade-in" >Eigen tag</li>
+                <li class="fragment fade-in"><pre><code><autosize-textfield></autosize-textfield></code></pre></li>
+
+                </ul>
+
+            </section>
+            <section>
+                <h3>waarom?</h3>
+                <ul>
+                    <li class="fragment fade-in" >Kleine componenten werken</li>
+                    <li class="fragment fade-in" >Simpel en klein</li>
+                    <li class="fragment fade-in" >Werkt perfect met andere libraries: Backbone, Knockout...</li>
+                    <li class="fragment fade-in" >Niets "leren": JSX (eigenlijk gewone javascript)</li>
+                    <li class="fragment fade-in" >...t.o.v Angular...</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Angular vs ReactJS</h3>
+
+               <table>
+                   <tr>
+                       <th>React</th><th>Angular</th>
+                   </tr>
+                   <tr>
+                       <td>Databinding en events</td><td>Alles</td>
+                   <tr/>
+                   <tr>
+                       <td>Lage leercurve</td><td>Hogere leercurve</td>
+                   </tr>
+                   <tr>
+                       <td>Intelligente DOM manipulatie</td><td>Volledige DOM update</td>
+                   </tr>
+                   <tr>
+                       <td>1 way data flow</td><td> 2 way binding</td>
+                   </tr>
+                   <tr>
+                       <td>Alleen View</td><td>MVC</td>
+                   </tr>
+               </table>
+            </section>
+        </section>
+
+        <section>
+            <h3>Dependency Hell?</h3>
+            <img src="assets/images/mvc_dep_hell.png" />
+        </section>
+
+
+        <section>
+            <h2>React + Flux</h2>
+            <section>
+                <ul>
+                    <li>Wat met Model en Controller?</li>
+                        <img class="fragment fade-in"  src="assets/images/React.js-Flux-3.png" />
+
+                </ul>
+            </section>
+
+            <section>
+                <ul>
+                    <li>Flux, zeg je?</li>
+
+                        <img class="fragment fade-in"  src="assets/images/flux-simple-f8-diagram-with-client-action-1300w.png" />
+
+                </ul>
+            </section>
+
+
+        </section>
+
+
+
+
+
+        <section>
+            <img src="assets/images/demotime.jpg" />
+        </section>
+
+
+        <section>
+            <h2>How did we do it?</h2>
+            <section>
+                <h3>Code visit</h3>
+            </section>
+            <section>
+                <h3>Pipelines n' stuff</h3>
+                <p class="fragment fade-in">
+                    Mini demo: Gulp & Sass<br/>
+                <img src="assets/images/gulp-logo.png" />
+                </p>
+
+            </section>
+
+        </section>
+
+
+        <section>
+            <h2>Let's get to work!</h2>
+            <p class="fragment fade-in">
+                Build your own?<br/>
+                <img src="assets/images/Al-bundy-ed-oneill-animated-gif-2.gif" />
+            </p>
+        </section>
+        <section>
+            <h2>Conclusies</h2>
+            <ul>
+                <li class="fragment fade-in">Kan React alles wat Angular kan: kind of</li>
+                <li class="fragment fade-in">Moet ik React gebruiken: perhaps</li>
+            </ul>
+            <p class="fragment fade-in">
+                Congrats<br/>
+            <img src="assets/images/mostAwesomeSealEver.png" c />
+            </p>
+        </section>
+
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+
+</script>
+
+</body>
+</html>
